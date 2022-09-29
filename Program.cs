@@ -26,9 +26,9 @@ namespace SourceCol
                         Console.Write("Enter a string: ");
                         string wordToSlice = Console.ReadLine();
                         if(wordToSlice.Length<20){
-                            Console.WriteLine(wordToSlice+"...");
+                            Console.WriteLine(wordToSlice);
                         }else{
-                            Console.WriteLine(wordToSlice.Substring(0,20));
+                            Console.WriteLine(wordToSlice.Substring(0,20)+"...");
                         }
                         break;
                     case 2:
