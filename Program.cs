@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace SourceCol
 {
@@ -65,7 +68,18 @@ namespace SourceCol
                         }
                         break;
                     case 5:
-                        Console.WriteLine("Case 5");
+                        var client = new WebClient();
+                        string url = "https://rickandmortyapi.com/api/character";
+                        do{
+                            var text = client.DownloadString(url);
+                            Root root = JsonConvert.DeserializeObject<Root>(text);
+                            var pjs = root.results;
+                            foreach (var pj in pjs)
+                            {
+                                Console.WriteLine(pj.name);
+                            }
+                            url = root.info.next;
+                        } while (!String.IsNullOrEmpty(url));
                         break;
                     default:
                         Console.WriteLine("Case "+flag);

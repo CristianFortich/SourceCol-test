@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EKyBYXjKmbsrnhMPInvFIlWTChnIY72H973jxrT5FxXLsGxuzw5UHXtdEYshXO5dFC9LI8jO5oGw5qGawwdvzw==",
+  "dgSpecHash": "8Nr6hLTzrlOrXto8s4h3feEL47kyHaltJ3ZZiCOsGUy9czK2gcOSEtuEpQa4jhVZ8QNBp/ofAmKBlXOvwSrx2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\yezid\\Documents\\Proyects\\C#\\SourceCol\\SourceCol.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yezid\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

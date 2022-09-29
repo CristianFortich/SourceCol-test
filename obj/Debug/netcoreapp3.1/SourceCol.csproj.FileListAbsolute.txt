@@ -11,3 +11,5 @@ C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\SourceCol
 C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.dll
 C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.pdb
 C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.genruntimeconfig.cache
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.csproj.CopyComplete
