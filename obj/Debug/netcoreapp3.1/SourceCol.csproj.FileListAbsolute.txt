@@ -1,0 +1,13 @@
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.csprojAssemblyReference.cache
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.AssemblyInfoInputs.cache
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.AssemblyInfo.cs
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.csproj.CoreCompileInputs.cache
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\SourceCol.exe
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\SourceCol.deps.json
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\SourceCol.runtimeconfig.json
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\SourceCol.runtimeconfig.dev.json
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\SourceCol.dll
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\bin\Debug\netcoreapp3.1\SourceCol.pdb
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.dll
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.pdb
+C:\Users\yezid\Documents\Proyects\C#\SourceCol\obj\Debug\netcoreapp3.1\SourceCol.genruntimeconfig.cache
