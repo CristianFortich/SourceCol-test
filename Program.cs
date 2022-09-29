@@ -38,7 +38,13 @@ namespace SourceCol
                         Console.WriteLine(result);
                         break;
                     case 3:
-                        Console.WriteLine("Case 3");
+                        int[] list = new int[] {2, 7, 4, 6, 1, 9};
+                        Console.Write("Provided List: ");
+                        printList(list);
+                        int pairs = orderAndPairs(list);
+                        Console.Write("Ordered List: ");
+                        printList(list);
+                        Console.WriteLine("this list has "+pairs+" pairs.");
                         break;
                     case 4:
                         Console.WriteLine("Case 4");
@@ -63,6 +69,23 @@ namespace SourceCol
         static bool isFibonacci(int x){
             bool aux = isPerfectSquare(5*x*x+4) || isPerfectSquare(5*x*x-4);
             return aux;
+        }
+        static int orderAndPairs(int[] listToOrder){
+            Array.Sort(listToOrder);
+            Array.Reverse(listToOrder);
+            int pairs = 0;
+            foreach (var num in listToOrder)
+            {
+                if(num%2==0) pairs++;
+            }
+            return pairs;
+        }
+        static void printList(int[] list){
+            foreach (var num in list)
+            {
+                Console.Write(num+" ");
+            }
+            Console.WriteLine("");
         }
     }
 }
