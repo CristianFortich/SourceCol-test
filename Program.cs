@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SourceCol
 {
@@ -47,7 +49,20 @@ namespace SourceCol
                         Console.WriteLine("this list has "+pairs+" pairs.");
                         break;
                     case 4:
-                        Console.WriteLine("Case 4");
+                        List<Car> cars = new List<Car>();
+                        cars.Add(new Car("test1", 1991, "red"));
+                        cars.Add(new Car("test2", 2018, "yellow"));
+                        cars.Add(new Car("test3", 2020, "black"));
+                        cars.Add(new Car("test4", 2021, "red"));
+                        cars.Add(new Car("test5", 2015, "green"));
+                        cars.Add(new Car("test6", 2000, "white"));
+                        cars.Add(new Car("test7", 2023, "blue"));
+                        cars.Add(new Car("test8", 2017, "blue"));
+                        var recentModels = newCarsList(cars);
+                        foreach (var c in recentModels)
+                        {
+                            Console.WriteLine("Brand: "+c.brand+" model: "+c.model);
+                        }
                         break;
                     case 5:
                         Console.WriteLine("Case 5");
@@ -86,6 +101,16 @@ namespace SourceCol
                 Console.Write(num+" ");
             }
             Console.WriteLine("");
+        }
+        static List<Car> newCarsList(List<Car> cars){
+            var year = Convert.ToInt32(DateTime.Now.Year);
+            var newCars = from c in cars where year - 5 <  c.model select c;
+            List<Car> recentModels = new List<Car>();
+            foreach (var c in newCars)
+            {
+                recentModels.Add(new Car(c.brand, c.model, c.color));
+            }
+            return recentModels;
         }
     }
 }
