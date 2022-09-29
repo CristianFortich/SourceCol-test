@@ -32,7 +32,10 @@ namespace SourceCol
                         }
                         break;
                     case 2:
-                        Console.WriteLine("Case 2");
+                        Console.Write("Enter number to check: ");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        string result = isFibonacci(num) ? "number "+num+" is in the fibonacci sequence" : "number "+num+" is not in the fibonacci sequence";
+                        Console.WriteLine(result);
                         break;
                     case 3:
                         Console.WriteLine("Case 3");
@@ -50,7 +53,16 @@ namespace SourceCol
                 Console.WriteLine(" ");
                 Console.WriteLine("*****************************************");
                 Console.WriteLine(" ");
+                Console.ReadKey();
             } while(flag < 6);
+        }
+        static bool isPerfectSquare(int x){
+            int aux = (int)Math.Sqrt(x);
+            return (aux*aux == x);
+        }
+        static bool isFibonacci(int x){
+            bool aux = isPerfectSquare(5*x*x+4) || isPerfectSquare(5*x*x-4);
+            return aux;
         }
     }
 }
